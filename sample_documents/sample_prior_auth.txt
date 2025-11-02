@@ -1,0 +1,60 @@
+PRIOR AUTHORIZATION REQUEST
+
+Patient Information:
+Name: John Smith
+Date of Birth: 01/15/1980
+Patient ID: PAT123456
+Member ID: MEM789012
+Phone: (555) 123-4567
+
+Insurance Information:
+Insurance Company: Blue Cross Blue Shield
+Policy Number: BCBS-2024-001234
+Group Number: GRP-456789
+Effective Date: 01/01/2024
+
+Provider Information:
+Provider Name: Dr. Sarah Johnson
+NPI: 1234567890
+Tax ID: 98-7654321
+Phone: (555) 987-6543
+Fax: (555) 987-6544
+
+Requested Service:
+Procedure: MRI Brain with Contrast
+CPT Code: 70553
+ICD-10 Code: G43.909 (Migraine, unspecified)
+Date of Service: 11/15/2024
+
+Clinical Information:
+Patient presents with severe recurring headaches for the past 3 months.
+Previous treatments with medication have been unsuccessful.
+Neurological examination shows no focal deficits.
+MRI is medically necessary to rule out structural abnormalities.
+
+Supporting Documentation:
+- Patient medical history attached
+- Previous treatment records included
+- Neurological examination notes attached
+
+Urgency: Standard (Non-urgent)
+Expected Duration: 60 minutes
+
+Authorization Request Date: 10/26/2024
+Requested by: Dr. Sarah Johnson, MD
+
+Notes:
+Patient has tried conservative treatment including:
+- Ibuprofen 800mg TID for 6 weeks
+- Sumatriptan 50mg PRN for acute episodes
+- Lifestyle modifications
+
+No improvement noted. Advanced imaging required for proper diagnosis.
+
+Contact Information:
+For questions regarding this authorization, please contact:
+Office Manager: Jane Doe
+Phone: (555) 987-6543 ext. 101
+Email: jane.doe@clinic.com
+
+AUTHORIZATION REQUIRED BEFORE: 11/10/2024

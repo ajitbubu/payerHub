@@ -1,0 +1,2 @@
+# Load from YAML file
+factory = PayerConnectorFactory.from_config_file('config/connectors.yaml')

@@ -1,0 +1,88 @@
+ELIGIBILITY VERIFICATION RESPONSE
+
+Date: October 26, 2024
+Reference Number: EV-2024-789456
+
+PATIENT INFORMATION
+Name: Sarah Martinez
+Date of Birth: 03/22/1985
+Member ID: MEM456789
+Social Security Number: XXX-XX-4567
+Address: 456 Oak Street, Chicago, IL 60601
+Phone: (555) 234-5678
+
+INSURANCE INFORMATION
+Insurance Carrier: Aetna Health Insurance
+Policy Number: AET-2024-567890
+Group Number: GRP-123456
+Plan Type: PPO Gold Plus
+Effective Date: 01/01/2024
+Termination Date: 12/31/2024
+
+COVERAGE STATUS
+Primary Coverage: ACTIVE
+Secondary Coverage: None
+Medicare: Not Enrolled
+Medicaid: Not Enrolled
+
+BENEFIT DETAILS
+Annual Deductible: $1,500
+Deductible Met: $850 (56.7%)
+Remaining Deductible: $650
+
+Out-of-Pocket Maximum: $5,000
+Out-of-Pocket Met: $2,100 (42%)
+Remaining OOP: $2,900
+
+COPAYMENTS
+Primary Care Visit: $25
+Specialist Visit: $50
+Emergency Room: $250
+Urgent Care: $75
+Inpatient Hospital: $500 per admission
+
+COVERAGE PERCENTAGES
+In-Network: 80% after deductible
+Out-of-Network: 60% after deductible
+Preventive Care: 100% (no deductible)
+
+PRESCRIPTION DRUG COVERAGE
+Tier 1 (Generic): $10 copay
+Tier 2 (Preferred Brand): $35 copay
+Tier 3 (Non-Preferred Brand): $60 copay
+Tier 4 (Specialty): 25% coinsurance
+
+PRIOR AUTHORIZATION REQUIRED FOR:
+- MRI/CT Scans
+- Specialty medications
+- Inpatient hospital stays
+- Outpatient surgery
+- Durable medical equipment over $500
+
+REFERRAL REQUIREMENTS
+Specialist visits: Referral required
+Mental health services: No referral required
+Physical therapy: Referral required after 6 visits
+
+PROVIDER INFORMATION
+Primary Care Physician: Dr. Michael Chen
+PCP Phone: (555) 345-6789
+PCP Address: 789 Medical Plaza, Chicago, IL 60602
+
+VERIFICATION PERFORMED BY
+Representative: Jennifer Williams
+Representative ID: REP-8901
+Date/Time: 10/26/2024 09:15 AM
+Contact Number: 1-800-555-AETNA
+
+NOTES
+- Coverage is active and in good standing
+- No outstanding balance on account
+- Patient has met 56.7% of annual deductible
+- Preventive care services covered at 100%
+- Recommend obtaining prior authorization for planned procedures
+
+This verification is valid for 30 days from the date of issue.
+
+For questions, contact Member Services at 1-800-555-AETNA
+Available Monday-Friday, 8 AM - 8 PM EST

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayerHub - Document Upload & Processing</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <rect width="40" height="40" rx="8" fill="#4F46E5"/>
+                    <path d="M20 10L30 15V25L20 30L10 25V15L20 10Z" stroke="white" stroke-width="2" fill="none"/>
+                    <circle cx="20" cy="20" r="4" fill="white"/>
+                </svg>
+                <h1>PayerHub Integration</h1>
+            </div>
+            <div class="status-badge" id="apiStatus">
+                <span class="status-dot"></span>
+                <span>Checking...</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Upload Section -->
+            <div class="upload-section">
+                <h2>Upload Document</h2>
+                <p class="subtitle">Upload PDFs, images, or screenshots for AI-powered processing</p>
+
+                <!-- Document Type Selection -->
+                <div class="form-group">
+                    <label for="documentType">Document Type</label>
+                    <select id="documentType" class="form-control">
+                        <option value="PRIOR_AUTHORIZATION">Prior Authorization</option>
+                        <option value="ELIGIBILITY_VERIFICATION">Eligibility Verification</option>
+                        <option value="EXPLANATION_OF_BENEFITS">Explanation of Benefits (EOB)</option>
+                        <option value="APPEAL_LETTER">Appeal Letter</option>
+                        <option value="FINANCIAL_ASSISTANCE">Financial Assistance</option>
+                        <option value="CLAIM">Claim Document</option>
+                        <option value="UNKNOWN">Unknown/Other</option>
+                    </select>
+                </div>
+
+                <!-- Patient & Organization Info -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="patientId">Patient ID</label>
+                        <input type="text" id="patientId" class="form-control" placeholder="PAT123456" value="PAT123456">
+                    </div>
+                    <div class="form-group">
+                        <label for="organizationId">Organization ID</label>
+                        <input type="text" id="organizationId" class="form-control" placeholder="ORG789" value="ORG789">
+                    </div>
+                </div>
+
+                <!-- Drag & Drop Area -->
+                <div class="upload-area" id="uploadArea">
+                    <input type="file" id="fileInput" accept=".pdf,.jpg,.jpeg,.png,.tiff,.txt" hidden>
+                    <div class="upload-content">
+                        <svg class="upload-icon" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <path d="M32 8L32 40M32 8L20 20M32 8L44 20" stroke="#4F46E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 40V52C8 54.2091 9.79086 56 12 56H52C54.2091 56 56 54.2091 56 52V40" stroke="#4F46E5" stroke-width="4" stroke-linecap="round"/>
+                        </svg>
+                        <h3>Drag & Drop your file here</h3>
+                        <p>or <button class="link-button" onclick="document.getElementById('fileInput').click()">browse files</button></p>
+                        <p class="file-types">Supported: PDF, JPG, PNG, TIFF, TXT</p>
+                    </div>
+                    <div class="file-preview" id="filePreview" style="display: none;">
+                        <div class="file-info">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="8" fill="#EEF2FF"/>
+                                <path d="M18 14H24L30 20V34H18V14Z" stroke="#4F46E5" stroke-width="2"/>
+                                <path d="M24 14V20H30" stroke="#4F46E5" stroke-width="2"/>
+                            </svg>
+                            <div>
+                                <p class="file-name" id="fileName"></p>
+                                <p class="file-size" id="fileSize"></p>
+                            </div>
+                        </div>
+                        <button class="remove-button" onclick="removeFile()">×</button>
+                    </div>
+                </div>
+
+                <!-- Upload Button -->
+                <button class="btn-primary" id="uploadButton" onclick="uploadDocument()" disabled>
+                    <span id="uploadButtonText">Upload & Process</span>
+                    <svg class="button-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <h2>Processing Results</h2>
+                
+                <!-- Progress Indicator -->
+                <div class="progress-container" id="progressContainer">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Processing document...</p>
+                </div>
+
+                <!-- Results Card -->
+                <div class="results-card" id="resultsCard" style="display: none;">
+                    <div class="result-header">
+                        <div class="result-status" id="resultStatus"></div>
+                        <div class="result-id" id="resultId"></div>
+                    </div>
+
+                    <!-- Pipeline Steps -->
+                    <div class="pipeline-steps" id="pipelineSteps"></div>
+
+                    <!-- Extracted Data -->
+                    <div class="extracted-data" id="extractedData"></div>
+
+                    <!-- Raw Response -->
+                    <details class="raw-response">
+                        <summary>View Raw Response</summary>
+                        <pre id="rawResponse"></pre>
+                    </details>
+                </div>
+
+                <!-- Error Display -->
+                <div class="error-card" id="errorCard" style="display: none;">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="20" stroke="#EF4444" stroke-width="2"/>
+                        <path d="M24 16V26M24 30V32" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Processing Failed</h3>
+                    <p id="errorMessage"></p>
+                </div>
+
+                <button class="btn-secondary" onclick="resetForm()">Upload Another Document</button>
+            </div>
+        </div>
+
+        <!-- Recent Uploads -->
+        <div class="recent-uploads" id="recentUploads" style="display: none;">
+            <h3>Recent Uploads</h3>
+            <div class="uploads-list" id="uploadsList"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>PayerHub Integration Platform v1.0.0</p>
+            <div class="footer-links">
+                <a href="/docs" target="_blank">API Docs</a>
+                <a href="/health" target="_blank">Health Check</a>
+                <a href="https://github.com/ajitbubu/payerHub" target="_blank">GitHub</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

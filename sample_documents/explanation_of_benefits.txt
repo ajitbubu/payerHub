@@ -1,0 +1,126 @@
+EXPLANATION OF BENEFITS (EOB)
+
+UnitedHealthcare
+P.O. Box 30555
+Salt Lake City, UT 84130-0555
+
+EOB Number: EOB-2024-345678
+Date: October 15, 2024
+Page 1 of 2
+
+PATIENT INFORMATION
+Patient Name: Robert Johnson
+Member ID: UHC987654321
+Group Number: GRP-555-7890
+Claim Number: CLM-2024-998877
+
+PROVIDER INFORMATION
+Provider Name: Chicago Orthopedic Center
+Provider ID: PRV-456789
+Service Location: 123 Medical Drive, Chicago, IL 60603
+Tax ID: 36-1234567
+
+CLAIM DETAILS
+Date of Service: September 28, 2024
+Date Received: October 1, 2024
+Date Processed: October 14, 2024
+
+SERVICE DETAILS
+┌────────────────────────────────────────────────────────────────────┐
+│ Service Description          │ Billed  │ Allowed │ Not    │ Paid  │
+│                              │ Amount  │ Amount  │ Covered│ Amount│
+├────────────────────────────────────────────────────────────────────┤
+│ Office Visit - Established   │ $250.00 │ $180.00 │ $70.00 │$144.00│
+│ CPT: 99214                   │         │         │        │       │
+├────────────────────────────────────────────────────────────────────┤
+│ X-Ray - Knee, 2 Views        │ $180.00 │ $120.00 │ $60.00 │ $96.00│
+│ CPT: 73564                   │         │         │        │       │
+├────────────────────────────────────────────────────────────────────┤
+│ Knee Injection - Cortisone   │ $150.00 │ $100.00 │ $50.00 │ $80.00│
+│ CPT: 20610                   │         │         │        │       │
+├────────────────────────────────────────────────────────────────────┤
+│ TOTALS                       │ $580.00 │ $400.00 │$180.00 │$320.00│
+└────────────────────────────────────────────────────────────────────┘
+
+PAYMENT BREAKDOWN
+Total Billed by Provider:              $580.00
+Plan Discount (Not Covered):           $180.00
+Allowed Amount:                        $400.00
+
+Your Deductible:                       $100.00
+Your Coinsurance (20%):                $ 60.00
+Your Copayment:                        $ 20.00
+Total You Owe:                         $180.00
+
+Plan Paid to Provider:                 $320.00
+
+BENEFIT INFORMATION
+Annual Deductible: $1,500
+Deductible Met Before This Claim: $1,400
+Applied to Deductible: $100
+Deductible Met After This Claim: $1,500 (100%)
+
+Out-of-Pocket Maximum: $5,000
+OOP Met Before This Claim: $3,200
+Applied to OOP: $180
+OOP Met After This Claim: $3,380
+
+CLAIM STATUS: PROCESSED - PAYMENT ISSUED
+
+PAYMENT INFORMATION
+Check Number: CHK-789456123
+Check Date: October 15, 2024
+Check Amount: $320.00
+Payee: Chicago Orthopedic Center
+
+PATIENT RESPONSIBILITY
+Amount You Owe Provider: $180.00
+
+Breakdown:
+- Deductible: $100.00
+- Coinsurance (20%): $60.00
+- Copayment: $20.00
+
+IMPORTANT NOTES
+1. This is not a bill. Your provider will bill you separately.
+2. The "Not Covered" amount is the difference between what your 
+   provider charged and what your plan allows.
+3. You are responsible only for the amounts shown as deductible,
+   coinsurance, and copayment.
+4. If you have questions about this claim, call Member Services
+   at 1-800-555-UHC1.
+
+DIAGNOSIS CODES
+M25.561 - Pain in right knee
+M17.11 - Unilateral primary osteoarthritis, right knee
+
+REMARKS
+- Services rendered are covered under your plan
+- Deductible has been met for the year
+- Coinsurance applies after deductible
+- Provider is in-network
+
+APPEAL RIGHTS
+If you disagree with this decision, you have the right to appeal.
+You must file your appeal within 180 days of receiving this EOB.
+
+To file an appeal:
+- Call: 1-800-555-UHC1
+- Write: UnitedHealthcare Appeals
+         P.O. Box 30555
+         Salt Lake City, UT 84130-0555
+- Online: www.uhc.com/appeals
+
+QUESTIONS?
+Member Services: 1-800-555-UHC1
+Available 24/7
+TTY: 711
+
+Provider Services: 1-800-555-UHC2
+Monday-Friday, 8 AM - 6 PM EST
+
+Website: www.myuhc.com
+Mobile App: Download "UnitedHealthcare" app
+
+KEEP THIS EOB FOR YOUR RECORDS
+You may need it for tax purposes or future reference.

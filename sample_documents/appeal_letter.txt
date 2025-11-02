@@ -1,0 +1,146 @@
+INSURANCE APPEAL LETTER
+
+Date: October 26, 2024
+
+Blue Cross Blue Shield
+Appeals Department
+P.O. Box 9999
+Chicago, IL 60680
+
+RE: Appeal of Denied Prior Authorization
+    Patient: Emily Thompson
+    Member ID: BCBS-2024-445566
+    Claim Number: CLM-2024-556677
+    Date of Service: Requested for 11/15/2024
+
+Dear Appeals Committee,
+
+I am writing to formally appeal the denial of prior authorization for an MRI of the lumbar spine for my patient, Emily Thompson (DOB: 05/12/1978, Member ID: BCBS-2024-445566).
+
+DENIAL INFORMATION
+Denial Date: October 20, 2024
+Denial Reason: "Not medically necessary at this time. Conservative treatment not adequately documented."
+Denial Code: D-1234
+
+PATIENT HISTORY
+Ms. Thompson is a 46-year-old female who has been experiencing severe lower back pain radiating down her left leg for the past 8 months. Her symptoms have significantly impacted her quality of life and ability to work.
+
+CONSERVATIVE TREATMENT COMPLETED
+Contrary to the denial reason, Ms. Thompson has undergone extensive conservative treatment:
+
+1. Physical Therapy (12 weeks)
+   - Provider: Chicago Physical Therapy Center
+   - Dates: March 1, 2024 - May 24, 2024
+   - Sessions: 24 sessions, twice weekly
+   - Result: Minimal improvement, pain persists
+
+2. Medication Management (8 months)
+   - NSAIDs: Ibuprofen 800mg TID (March-June 2024)
+   - Muscle Relaxants: Cyclobenzaprine 10mg QHS (April-July 2024)
+   - Neuropathic Pain: Gabapentin 300mg TID (May-Present)
+   - Result: Partial pain relief, but symptoms persist
+
+3. Epidural Steroid Injections (2 rounds)
+   - First injection: July 15, 2024
+   - Second injection: September 10, 2024
+   - Result: Temporary relief (2-3 weeks), then return of symptoms
+
+4. Activity Modification and Home Exercise Program
+   - Ongoing since March 2024
+   - Limited effectiveness
+
+CURRENT CLINICAL PRESENTATION
+- Pain Level: 8/10 on visual analog scale
+- Location: Lower back with radiation to left leg (L5-S1 distribution)
+- Character: Sharp, shooting pain with numbness and tingling
+- Aggravating Factors: Sitting, bending, lifting
+- Relieving Factors: Lying down (partial relief only)
+
+PHYSICAL EXAMINATION FINDINGS
+- Positive straight leg raise test on left at 30 degrees
+- Decreased sensation in L5 dermatome
+- Weakness in left ankle dorsiflexion (4/5 strength)
+- Diminished left Achilles reflex
+- Tenderness over L5-S1 region
+
+RED FLAGS PRESENT
+- Progressive neurological symptoms (weakness, numbness)
+- Failure of conservative treatment over 8 months
+- Impact on activities of daily living
+- Inability to work (patient on medical leave)
+
+MEDICAL NECESSITY JUSTIFICATION
+An MRI of the lumbar spine is medically necessary for the following reasons:
+
+1. Diagnostic Clarity: To identify the specific cause of radiculopathy (disc herniation, spinal stenosis, or other pathology)
+
+2. Treatment Planning: Results will guide further treatment decisions, potentially including:
+   - Targeted interventional procedures
+   - Surgical consultation if indicated
+   - Modification of current treatment plan
+
+3. Progressive Symptoms: Patient's neurological symptoms are worsening despite aggressive conservative management
+
+4. Standard of Care: Current clinical guidelines support advanced imaging after failure of 6-8 weeks of conservative treatment
+
+SUPPORTING EVIDENCE
+Enclosed please find:
+- Physical therapy records (24 sessions)
+- Medication history and prescriptions
+- Procedure notes from epidural injections
+- Office visit notes documenting progression
+- Functional assessment showing work disability
+
+CLINICAL GUIDELINES SUPPORT
+According to the American College of Radiology Appropriateness Criteria and North American Spine Society guidelines, MRI is appropriate for:
+- Radiculopathy lasting >6 weeks
+- Failure of conservative treatment
+- Progressive neurological deficits
+- Consideration for interventional or surgical treatment
+
+All of these criteria are met in Ms. Thompson's case.
+
+PATIENT IMPACT
+Without this diagnostic study:
+- Continued suffering and decreased quality of life
+- Inability to return to work (financial hardship)
+- Risk of permanent neurological damage
+- Delayed appropriate treatment
+- Potential for condition to worsen
+
+REQUESTED ACTION
+I respectfully request that you:
+1. Overturn the denial of prior authorization
+2. Approve MRI of lumbar spine without contrast (CPT 72148)
+3. Expedite the review given the patient's progressive symptoms
+
+URGENCY
+This is an urgent matter. Ms. Thompson's symptoms are progressively worsening, and timely diagnosis is critical to prevent permanent neurological damage and guide appropriate treatment.
+
+I am available to discuss this case further and provide any additional information needed. Please contact me at (555) 123-4567 or via fax at (555) 123-4568.
+
+Thank you for your prompt attention to this appeal. I look forward to a favorable resolution that will allow my patient to receive the necessary diagnostic care.
+
+Sincerely,
+
+Dr. Patricia Williams, MD
+Board Certified in Physical Medicine and Rehabilitation
+License Number: IL-MD-123456
+NPI: 1234567890
+
+Chicago Pain Management Center
+789 Medical Plaza, Suite 200
+Chicago, IL 60602
+Phone: (555) 123-4567
+Fax: (555) 123-4568
+
+ENCLOSURES:
+1. Physical therapy records (24 pages)
+2. Medication history (3 pages)
+3. Epidural injection procedure notes (4 pages)
+4. Office visit notes - 6 visits (12 pages)
+5. Functional capacity evaluation (5 pages)
+6. Clinical guidelines references (8 pages)
+
+CC: Emily Thompson (Patient)
+    Patient Advocate Services
