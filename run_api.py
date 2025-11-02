@@ -35,7 +35,7 @@ if __name__ == "__main__":
     print("=" * 60)
     
     uvicorn.run(
-        "src.api_gateway.gateway:app",
+        "src.api.gateway:app",
         host="0.0.0.0",
         port=8001,
         reload=True,

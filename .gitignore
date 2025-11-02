@@ -88,3 +88,26 @@ secrets/
 *.pem
 *.key
 *.crt
+
+# Data
+data/uploads/
+data/processed/
+*.csv
+*.parquet
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Testing
+.tox/
+.nox/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup

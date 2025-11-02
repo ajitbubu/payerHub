@@ -59,7 +59,7 @@ app = FastAPI(
 )
 
 # Mount static files
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static", StaticFiles(directory="src/web"), name="static")
 
 # CORS middleware
 app.add_middleware(
@@ -183,7 +183,7 @@ rate_limiter = RateLimiter(redis_client)
 async def root():
     """Serve the web UI"""
     try:
-        with open("static/index.html", "r") as f:
+        with open("src/web/index.html", "r") as f:
             return f.read()
     except FileNotFoundError:
         return HTMLResponse(content="<h1>PayerHub Integration API</h1><p>UI not found. API is running at /docs</p>")

@@ -11,16 +11,18 @@ A comprehensive, production-ready platform for automating the integration of ins
 1. [Overview](#overview)
 2. [Architecture](#architecture)
 3. [Features](#features)
-4. [Prerequisites](#prerequisites)
-5. [Installation](#installation)
-6. [Configuration](#configuration)
-7. [Usage](#usage)
-8. [API Documentation](#api-documentation)
-9. [Pipeline Components](#pipeline-components)
-10. [Deployment](#deployment)
-11. [Monitoring](#monitoring)
-12. [Security & Compliance](#security--compliance)
-13. [Troubleshooting](#troubleshooting)
+4. [Project Structure](#project-structure)
+5. [Prerequisites](#prerequisites)
+6. [Installation](#installation)
+7. [Configuration](#configuration)
+8. [Usage](#usage)
+9. [API Documentation](#api-documentation)
+10. [Pipeline Components](#pipeline-components)
+11. [Deployment](#deployment)
+12. [Monitoring](#monitoring)
+13. [Security & Compliance](#security--compliance)
+14. [Contributing](#contributing)
+15. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -113,10 +115,49 @@ PayerHub Integration automates this workflow using:
 ### Generate Architecture Diagram
 
 ```bash
-python diagrams/architecture_diagram.py
+python docs/architecture/architecture_diagram.py
 ```
 
-This will generate a detailed visual diagram in `diagrams/payerhub_architecture.png`.
+This will generate a detailed visual diagram in `docs/architecture/payerhub_architecture.png`.
+
+---
+
+## 📁 Project Structure
+
+```
+payerHub/
+├── src/                       # Source code
+│   ├── api/                  # API Gateway (FastAPI)
+│   ├── core/                 # Core business logic
+│   │   ├── ai_pipeline/     # OCR & NLP processing
+│   │   ├── anomaly_detection/ # Data quality validation
+│   │   ├── fhir_mapper/     # FHIR conversion
+│   │   └── privacy_layer/   # Privacy & consent management
+│   ├── integrations/         # External integrations (payers, hubs)
+│   ├── infrastructure/       # Event streaming (Kafka)
+│   └── web/                  # Web UI
+├── tests/                     # Test files
+│   ├── unit/                 # Unit tests
+│   ├── integration/          # Integration tests
+│   └── e2e/                  # End-to-end tests
+├── docs/                      # Documentation
+│   ├── architecture/         # Architecture diagrams
+│   ├── guides/               # User & developer guides
+│   ├── api/                  # API documentation
+│   └── papers/               # Research papers
+├── scripts/                   # Utility scripts
+├── config/                    # Configuration files
+├── deployments/              # Deployment configurations
+│   ├── docker/              # Docker files
+│   └── kubernetes/          # K8s manifests
+├── data/                      # Sample data
+│   └── samples/             # Sample documents
+├── .env.example              # Environment variables template
+├── docker-compose.yml        # Docker Compose configuration
+├── requirements.txt          # Python dependencies
+├── setup.py                  # Package setup
+└── README.md                 # This file
+```
 
 ---
 
@@ -601,6 +642,22 @@ Monitor:
 4. Implement IP whitelisting
 5. Regular security audits
 6. Monitor audit logs
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### Quick Start for Contributors
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes
+4. Run tests: `pytest`
+5. Commit: `git commit -m "Add amazing feature"`
+6. Push: `git push origin feature/amazing-feature`
+7. Open a Pull Request
 
 ---
 
