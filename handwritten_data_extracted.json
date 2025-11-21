@@ -1,0 +1,50 @@
+{
+  "extraction_method": "manual_visual_analysis",
+  "confidence": "medium (50-60%)",
+  "document_type": "Healthcare Insurance Form",
+  "extraction_date": "2024-11-21",
+  "extracted_data": {
+    "patient_information": {
+      "member_name": "BJIT Selin",
+      "member_id": "BJIT",
+      "patient_id": "ABC-2024-991800"
+    },
+    "insurance_plan": {
+      "health_plan": "Health 2nd date",
+      "plan_type": "PPO",
+      "plan_number": "1304 B",
+      "plan_full": "PPO 1304 B CS"
+    },
+    "copay_information": {
+      "section_label": "CO PAY",
+      "rx_benefit": "11180",
+      "er_copay": "$333",
+      "pharmacy_copay": "$82"
+    },
+    "additional_fields": {
+      "roemheld": "$82"
+    }
+  },
+  "raw_text_lines": [
+    "Health 2nd date",
+    "Plan: PPO 1304 B CS",
+    "Member: BJIT Selin",
+    "ID: ABC-2024-991800",
+    "CO PAY",
+    "Rx Ben: 11180",
+    "ER: $333",
+    "Roemheld: $82"
+  ],
+  "notes": [
+    "Handwriting is irregular and challenging",
+    "Some characters are ambiguous",
+    "Light ink in certain areas",
+    "Manual verification recommended for critical fields"
+  ],
+  "recommendations": [
+    "Verify patient ID with source system",
+    "Confirm copay amounts",
+    "Validate plan number",
+    "Consider rescanning at higher resolution for better OCR results"
+  ]
+}
